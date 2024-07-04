@@ -1,0 +1,475 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &-8626352723702288351
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0e6cf5671577b7344ba25c25b4346ce4, type: 3}
+  m_Name: Recorder Track
+  m_EditorClassIdentifier: 
+  m_Version: 3
+  m_AnimClip: {fileID: 0}
+  m_Locked: 0
+  m_Muted: 1
+  m_CustomPlayableFullTypename: 
+  m_Curves: {fileID: 0}
+  m_Parent: {fileID: 11400000}
+  m_Children: []
+  m_Clips:
+  - m_Version: 1
+    m_Start: 0
+    m_ClipIn: 0
+    m_Asset: {fileID: 2797047728266701775}
+    m_Duration: 0.8666666666666667
+    m_TimeScale: 1
+    m_ParentTrack: {fileID: -8626352723702288351}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: 0
+    m_BlendOutDuration: 0
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 0
+    m_PreExtrapolationMode: 0
+    m_PostExtrapolationTime: 0
+    m_PreExtrapolationTime: 0
+    m_DisplayName: RecorderClip
+  m_Markers:
+    m_Objects: []
+--- !u!114 &-8204374022027157924
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa99b205b763ac44896cd5ea78e5ab5e, type: 3}
+  m_Name: RecorderClip
+  m_EditorClassIdentifier: 
+  enabled: 1
+  take: 4
+  captureEveryNthFrame: 1
+  fileNameGenerator:
+    m_Path:
+      m_Root: 1
+      m_Leaf: Recordings
+      m_ForceAssetFolder: 0
+      m_AbsolutePath: 
+    m_FileName: animation_<GameObject>_<Take>
+    m_RecorderSettings: {fileID: -8204374022027157924}
+  <IsOutputNameDuplicate>k__BackingField: 0
+  <RecordMode>k__BackingField: 0
+  <FrameRatePlayback>k__BackingField: 0
+  frameRate: 30
+  <StartFrame>k__BackingField: 0
+  <EndFrame>k__BackingField: 0
+  <StartTime>k__BackingField: 0
+  <EndTime>k__BackingField: 0
+  <CapFrameRate>k__BackingField: 1
+  m_exportGeometry: 1
+  m_animSourceBindingId: 0dad2017ebe355b44b5e05316d173eb4
+  m_animDestBindingId: 398ddc30ce899814f8d5a27bf07818b2
+  m_AnimationInputSettings:
+    m_BindingId: 5f9a9424df1e2934985db475957319bc
+    recursive: 1
+    clampedTangents: 1
+    simplifyCurves: 0
+    bindingTypeNames:
+    - UnityEngine.Transform, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+--- !u!114 &-4575542348244935783
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa99b205b763ac44896cd5ea78e5ab5e, type: 3}
+  m_Name: RecorderClip
+  m_EditorClassIdentifier: 
+  enabled: 1
+  take: 63
+  captureEveryNthFrame: 1
+  fileNameGenerator:
+    m_Path:
+      m_Root: 1
+      m_Leaf: Recordings
+      m_ForceAssetFolder: 0
+      m_AbsolutePath: 
+    m_FileName: animation_<GameObject>_<Take>
+    m_RecorderSettings: {fileID: -4575542348244935783}
+  <IsOutputNameDuplicate>k__BackingField: 0
+  <RecordMode>k__BackingField: 0
+  <FrameRatePlayback>k__BackingField: 0
+  frameRate: 30
+  <StartFrame>k__BackingField: 0
+  <EndFrame>k__BackingField: 0
+  <StartTime>k__BackingField: 0
+  <EndTime>k__BackingField: 0
+  <CapFrameRate>k__BackingField: 0
+  m_exportGeometry: 1
+  m_animSourceBindingId: 6dd3d44ee97d6d64d99fcace0c78e0f6
+  m_animDestBindingId: 0f87165984e042f48a83dd3b2c1cae5f
+  m_AnimationInputSettings:
+    m_BindingId: a8c24aa575e1a204b8902e8900531c8a
+    recursive: 1
+    clampedTangents: 1
+    simplifyCurves: 0
+    bindingTypeNames:
+    - UnityEngine.Transform, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+--- !u!114 &-3241235020631229472
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d21dcc2386d650c4597f3633c75a1f98, type: 3}
+  m_Name: Animation Track
+  m_EditorClassIdentifier: 
+  m_Version: 3
+  m_AnimClip: {fileID: 0}
+  m_Locked: 0
+  m_Muted: 1
+  m_CustomPlayableFullTypename: 
+  m_Curves: {fileID: 0}
+  m_Parent: {fileID: 11400000}
+  m_Children: []
+  m_Clips:
+  - m_Version: 1
+    m_Start: 0
+    m_ClipIn: 0
+    m_Asset: {fileID: 2433463156188963939}
+    m_Duration: 0.8666666666666667
+    m_TimeScale: 1
+    m_ParentTrack: {fileID: -3241235020631229472}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: -1
+    m_BlendOutDuration: 0.7
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 1
+    m_PreExtrapolationMode: 1
+    m_PostExtrapolationTime: Infinity
+    m_PreExtrapolationTime: 0
+    m_DisplayName: Jump
+  - m_Version: 1
+    m_Start: 0.16666666666666674
+    m_ClipIn: 0
+    m_Asset: {fileID: -950950806990106784}
+    m_Duration: 0.7
+    m_TimeScale: 1
+    m_ParentTrack: {fileID: -3241235020631229472}
+    m_EaseInDuration: 0
+    m_EaseOutDuration: 0
+    m_BlendInDuration: 0.7
+    m_BlendOutDuration: -1
+    m_MixInCurve:
+      serializedVersion: 2
+      m_Curve: []
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_MixOutCurve:
+      serializedVersion: 2
+      m_Curve:
+      - serializedVersion: 3
+        time: 0
+        value: 1
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      - serializedVersion: 3
+        time: 1
+        value: 0
+        inSlope: 0
+        outSlope: 0
+        tangentMode: 0
+        weightedMode: 0
+        inWeight: 0
+        outWeight: 0
+      m_PreInfinity: 2
+      m_PostInfinity: 2
+      m_RotationOrder: 4
+    m_BlendInCurveMode: 0
+    m_BlendOutCurveMode: 0
+    m_ExposedParameterNames: []
+    m_AnimationCurves: {fileID: 0}
+    m_Recordable: 0
+    m_PostExtrapolationMode: 1
+    m_PreExtrapolationMode: 1
+    m_PostExtrapolationTime: Infinity
+    m_PreExtrapolationTime: 0
+    m_DisplayName: Falling Idle
+  m_Markers:
+    m_Objects: []
+  m_InfiniteClipPreExtrapolation: 0
+  m_InfiniteClipPostExtrapolation: 0
+  m_InfiniteClipOffsetPosition: {x: 0, y: 0, z: 0}
+  m_InfiniteClipOffsetEulerAngles: {x: 0, y: 0, z: 0}
+  m_InfiniteClipTimeOffset: 0
+  m_InfiniteClipRemoveOffset: 0
+  m_InfiniteClipApplyFootIK: 1
+  mInfiniteClipLoop: 0
+  m_MatchTargetFields: 63
+  m_Position: {x: 0, y: 0, z: 0}
+  m_EulerAngles: {x: 0, y: 0, z: 0}
+  m_AvatarMask: {fileID: 0}
+  m_ApplyAvatarMask: 0
+  m_TrackOffset: 1
+  m_InfiniteClip: {fileID: 0}
+  m_OpenClipOffsetRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
+  m_ApplyOffsets: 0
+--- !u!114 &-950950806990106784
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 030f85c3f73729f4f976f66ffb23b875, type: 3}
+  m_Name: AnimationPlayableAsset(Clone)(Clone)
+  m_EditorClassIdentifier: 
+  m_Clip: {fileID: -203655887218126122, guid: 12102b5bdb420bb48968b97b342c8b9a, type: 3}
+  m_Position: {x: 0.0023513301, y: 0, z: 2.1}
+  m_EulerAngles: {x: 0, y: 0, z: 0}
+  m_UseTrackMatchFields: 1
+  m_MatchTargetFields: 63
+  m_RemoveStartOffset: 1
+  m_ApplyFootIK: 1
+  m_Loop: 0
+  m_Version: 1
+  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bfda56da833e2384a9677cd3c976a436, type: 3}
+  m_Name: Erika ArcherAvatarTimeline
+  m_EditorClassIdentifier: 
+  m_Version: 0
+  m_Tracks:
+  - {fileID: -8626352723702288351}
+  - {fileID: -3241235020631229472}
+  m_FixedDuration: 0
+  m_EditorSettings:
+    m_Framerate: 30
+    m_ScenePreview: 1
+  m_DurationMode: 0
+  m_MarkerTrack: {fileID: 0}
+--- !u!114 &2433463156188963939
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 030f85c3f73729f4f976f66ffb23b875, type: 3}
+  m_Name: AnimationPlayableAsset(Clone)(Clone)
+  m_EditorClassIdentifier: 
+  m_Clip: {fileID: -203655887218126122, guid: 0b2467d5ccf204341bc80a3f15ab9a20, type: 3}
+  m_Position: {x: 0, y: 0, z: 0}
+  m_EulerAngles: {x: 0, y: 0, z: 0}
+  m_UseTrackMatchFields: 1
+  m_MatchTargetFields: 63
+  m_RemoveStartOffset: 1
+  m_ApplyFootIK: 1
+  m_Loop: 0
+  m_Version: 1
+  m_Rotation: {x: 0, y: 0, z: 0, w: 1}
+--- !u!114 &2797047728266701775
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f1e95aa6d658d694785bfde37c857fff, type: 3}
+  m_Name: RecorderClip(Clone)(Clone)
+  m_EditorClassIdentifier: 
+  settings: {fileID: 9052708046382132737}
+--- !u!114 &3328370045685636185
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa99b205b763ac44896cd5ea78e5ab5e, type: 3}
+  m_Name: RecorderClip
+  m_EditorClassIdentifier: 
+  enabled: 1
+  take: 1
+  captureEveryNthFrame: 1
+  fileNameGenerator:
+    m_Path:
+      m_Root: 1
+      m_Leaf: Recordings
+      m_ForceAssetFolder: 0
+      m_AbsolutePath: 
+    m_FileName: animation_<GameObject>_<Take>
+    m_RecorderSettings: {fileID: 3328370045685636185}
+  <IsOutputNameDuplicate>k__BackingField: 0
+  <RecordMode>k__BackingField: 0
+  <FrameRatePlayback>k__BackingField: 0
+  frameRate: 30
+  <StartFrame>k__BackingField: 0
+  <EndFrame>k__BackingField: 0
+  <StartTime>k__BackingField: 0
+  <EndTime>k__BackingField: 0
+  <CapFrameRate>k__BackingField: 0
+  m_exportGeometry: 1
+  m_animSourceBindingId: cc09e113d82d74545bc8107cd1f27686
+  m_animDestBindingId: e63c95b46f742c54e93b4e0ae0b1064b
+  m_AnimationInputSettings:
+    m_BindingId: 2ea7d99cdb0c2654c8812b149f6ca319
+    recursive: 1
+    clampedTangents: 1
+    simplifyCurves: 0
+    bindingTypeNames:
+    - UnityEngine.Transform, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null
+--- !u!114 &9052708046382132737
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9f55b158f7c43688c1c21ce05ac46ba, type: 3}
+  m_Name: RecorderClip
+  m_EditorClassIdentifier: 
+  enabled: 1
+  take: 2
+  captureEveryNthFrame: 1
+  fileNameGenerator:
+    m_Path:
+      m_Root: 1
+      m_Leaf: Recordings
+      m_ForceAssetFolder: 1
+      m_AbsolutePath: 
+    m_FileName: animation_<GameObject>_<Take>
+  m_AnimationInputSettings:
+    m_BindingId: 0c5821dba0245d94c992f0a0ae0c72ce
+    recursive: 1
+    clampedTangents: 1
+    simplifyCurves: 0
+    bindingTypeNames:
+    - UnityEngine.Transform, UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral,
+      PublicKeyToken=null

@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ac33d7a0c18661a46b48208290d738f6, type: 3}
+  m_Name: Swing
+  m_EditorClassIdentifier: 
+  _animName: Swing
+  _minHeight: 0
+  _maxHeight: 0
+  _minDist: 0
+  _maxDist: 0
+  _obstacleTag: 
+  _rotateToObstacle: 1
+  _postActionDelay: 0
+  enableTargetMatching: 1
+  ledgeTargetMatching: 0
+  matchBodyPart: 5
+  matchStartTime: 0.254
+  matchTargetTime: 0.349
+  matchPosWeight: {x: 0, y: 1, z: 1}
